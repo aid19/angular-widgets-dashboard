@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChartComponent } from './chart/chart.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgChartsModule } from 'ng2-charts';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { NgChartsModule } from 'ng2-charts';
   imports: [
     BrowserModule,
     BrowserAnimationsModule, 
-    NgChartsModule
+    NgChartsModule, AppRoutingModule ,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
