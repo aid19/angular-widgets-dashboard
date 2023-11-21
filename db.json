@@ -1,0 +1,46 @@
+{
+  "sensorData": [
+    {
+      "date": "2023-11-18",
+      "temperature": 25,
+      "humidity": 60,
+      "lightLevel": 10, 
+      "colorcode":"rgba(255, 205, 86, 0.2)"
+    },
+    {
+      "date": "2023-11-19",
+      "temperature": 65,
+      "humidity": -60,
+      "lightLevel": 20,
+      "colorcode":"rgba(54, 162, 235, 0.2)"
+    },
+    {
+      "date": "2023-11-20",
+      "temperature": -25,
+      "humidity": 60,
+      "lightLevel": 10,
+      "colorcode":"rgba(255, 205, 86, 0.2)"
+    },
+    {
+      "date": "2023-11-21",
+      "temperature": 85,
+      "humidity": 20,
+      "lightLevel": 80,
+      "colorcode":"rgba(75, 192, 192, 0.2)"
+    },
+    {
+      "date": "2023-11-22",
+      "temperature": -35,
+      "humidity": 38,
+      "lightLevel": 5,
+      "colorcode":"rgba(54, 162, 235, 0.2)"
+    },
+    {
+      "date": "2023-11-23",
+      "temperature": 55,
+      "humidity": 79,
+      "lightLevel": -40,
+      "colorcode":"rgba(54, 162, 235, 0.2)"
+    }
+  ]
+}
