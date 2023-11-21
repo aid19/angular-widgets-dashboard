@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Chart, registerables} from 'node_modules/chart.js'
+Chart.register(...registerables);
 
 @Component({
   selector: 'app-chart',
@@ -10,6 +12,11 @@ export class ChartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.RenderChart();
+  }
+
+  RenderChart(){
+
   }
 
 }
